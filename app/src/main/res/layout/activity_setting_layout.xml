@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SettingLayout"
+    android:background="@color/background"
+    android:orientation="vertical">
+    <LinearLayout
+        android:id="@+id/toolbar"
+        android:background="@color/toolbarbachground"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/Layoutaboveheight"
+        android:orientation="horizontal" >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Setting"
+            android:textColor="@color/background"
+            android:textSize="@dimen/textTitlestorysize"
+            android:gravity="center"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/margin_btw_listItem"
+        android:orientation="vertical"
+      >
+
+        <TextView
+            android:id="@+id/rate_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/ic_rate"
+            android:drawablePadding="@dimen/padingStroyText"
+            android:textColor="@color/black"
+            android:layout_margin="@dimen/padingStroyText"
+            android:textSize="@dimen/textTitlestorysize"
+            android:text="rate app" />
+        <TextView
+            android:id="@+id/share_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/ic_share"
+            android:drawablePadding="@dimen/padingStroyText"
+            android:textColor="@color/black"
+            android:layout_margin="@dimen/padingStroyText"
+            android:textSize="@dimen/textTitlestorysize"
+            android:text="share app" />
+        <TextView
+            android:id="@+id/contact_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/ic_contact_us"
+            android:drawablePadding="@dimen/padingStroyText"
+            android:textColor="@color/black"
+            android:layout_margin="@dimen/padingStroyText"
+            android:textSize="@dimen/textTitlestorysize"
+            android:text="contact Us" />
+        <TextView
+            android:id="@+id/email_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+           android:textSize="@dimen/textstorysize"
+            android:textColor="@color/gray"
+            android:gravity="center"
+            android:text="cooderherou@gmail.com"
+            android:autoLink="email"
+          />
+
+        <TextView
+            android:id="@+id/about"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/padingStroyText"
+            android:drawableStart="@drawable/ic_aboutapp"
+            android:drawablePadding="@dimen/padingStroyText"
+            android:text="About app"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textTitlestorysize" />
+
+        <TextView
+            android:id="@+id/textabout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/textstorysize"
+            android:gravity="center"
+            android:padding="@dimen/rv_padTop"
+            android:visibility="invisible"
+            android:textStyle="italic"
+            android:text="short stories application  contains  some English stories for beginners who want learn or improve English and also for kids " />
+    </LinearLayout>
+
+</LinearLayout>

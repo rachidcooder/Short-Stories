@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/Layoutaboveheight"
+        android:orientation="vertical"
+        android:background="@color/toolbarbachground"
+        android:gravity="center_vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/iclayoupadbottom"
+        android:paddingTop="@dimen/iclayoupadbottom">
+
+        <ImageView
+            android:id="@+id/home_ic_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/select_btn"
+            app:srcCompat="@drawable/ic_home" />
+
+        <ImageView
+            android:id="@+id/faborite_ic_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/select_btn"
+            app:srcCompat="@drawable/ic_favorite_" />
+
+        <ImageView
+            android:id="@+id/setting_ic_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/select_btn"
+            app:srcCompat="@drawable/ic_settings" />
+    </LinearLayout>
+    </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_id"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="@dimen/rv_padTop"
+        android:layout_weight="1"
+        />
+</LinearLayout>

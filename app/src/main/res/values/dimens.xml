@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="anotherLayout" type="layout">@layout/activity_main</item>
+    <dimen name="Layoutaboveheight">50dp</dimen>
+    <dimen name="iconsize">35dp</dimen>
+    <dimen name="iclayoupadbottom">10dp</dimen>
+    <dimen name="textstorysize">22sp</dimen>
+    <dimen name="titel_inListwith">50dp</dimen>
+    <dimen name="titelpaddingstart">10dp</dimen>
+    <dimen name="strokTitel_inList">1dp</dimen>
+    <dimen name="raduissize">5dp</dimen>
+    <dimen name="margin_btw_listItem">5dp</dimen>
+    <dimen name="rv_padTop">10dp</dimen>
+    <dimen name="textTitlestorysize">25sp</dimen>
+    <dimen name="padingStroyText">10dp</dimen>
+    <dimen name="marginTitellist">5dp</dimen>
+    <dimen name="radiobuttonWith">35dp</dimen>
+    <dimen name="RG_marginStart">50dp</dimen>
+    <dimen name="teaxtaddminesSize">30dp</dimen>
+    <dimen name="plusminesTxtSize">30sp</dimen>
+</resources>
